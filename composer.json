@@ -1,0 +1,23 @@
+{
+    "name": "microstrategy console",
+    "description": "microstrategy console",
+    "require": {
+        "symfony/console": "dev-master",
+        "pimple/pimple": "dev-master",
+        "symfony/yaml": "dev-master",
+        "zendesk/zendesk_api_client_php": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rivas Fernando",
+            "email": "fernando.rivas@olx.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "MicroApp": "src/",
+            "Lib": "src/"
+        }
+    }
+}
