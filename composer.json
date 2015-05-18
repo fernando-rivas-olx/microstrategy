@@ -1,11 +1,10 @@
 {
-    "name": "microstrategy console",
-    "description": "microstrategy console",
+    "name": "microstrategy Zendesk API",
+    "description": "microstrategy Zendesk API",
     "require": {
-        "symfony/console": "dev-master",
-        "pimple/pimple": "dev-master",
         "symfony/yaml": "dev-master",
-        "zendesk/zendesk_api_client_php": "dev-master"
+        "zendesk/zendesk_api_client_php": "dev-master",
+        "altorouter/altorouter": "1.1.0"
     },
     "license": "MIT",
     "authors": [
